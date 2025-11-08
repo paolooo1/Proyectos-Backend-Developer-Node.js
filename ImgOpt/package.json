@@ -1,0 +1,23 @@
+{
+  "name": "imgopt",
+  "version": "1.0.0",
+  "description": "Programa de optimizacion de imagenes",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "Paolo Lopez",
+  "license": "MIT",
+  "devDependencies": {
+    "fs-extra": "^11.3.2",
+    "imagemin": "^9.0.1",
+    "imagemin-gifsicle": "^7.0.0",
+    "imagemin-jpegtran": "^8.0.0",
+    "imagemin-pngquant": "^10.0.0",
+    "imagemin-svgo": "^11.0.1",
+    "imagemin-webp": "^8.0.0",
+    "sharp": "^0.34.4"
+  }
+}

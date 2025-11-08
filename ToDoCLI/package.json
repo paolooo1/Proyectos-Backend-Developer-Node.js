@@ -1,0 +1,22 @@
+{
+  "name": "todocli",
+  "version": "1.0.0",
+  "description": "Un ToDoList desde la CLI Node",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js",
+    "dev-file": "nodemon app-with-file.js",
+    "start-file": "node app-with-file.js"
+  },
+  "keywords": [],
+  "author": "Paolo Lopez",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
